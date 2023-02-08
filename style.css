@@ -1,0 +1,529 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+}
+.top_bar {
+  background-color: #091d37;
+  width: 100%;
+  height: 60px;
+}
+.naviqation {
+  background-color: #091d37;
+
+  margin: 0px 65px;
+  height: 60px;
+}
+.naviqation_left {
+  list-style: none;
+  display: inline-block;
+  margin: 15px 15px;
+  color: #556bb3;
+}
+
+.social_media {
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  right: 65px;
+}
+.social_media_icons {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  color: #556bb3;
+}
+
+.header_box {
+  border: 2px solid rebeccapurplee;
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+.header {
+  margin: 0px 65px;
+  height: 100px;
+  position: relative;
+}
+.tooth_picture {
+  height: 80px;
+  width: 100px;
+  margin-top: 15px;
+  background-image: url(https://i.pinimg.com/originals/0a/aa/2f/0aaa2fe36af41bdacd07a4282f46b175.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ident {
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  font-size: 35px;
+}
+
+.contact_list {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.contact_list_item {
+  font-size: 30px;
+  list-style: none;
+  display: inline;
+  margin: 10px;
+}
+.doctor_picture {
+  width: 100%;
+  height: 90vh;
+  background-image: url(./3fabcfd1-fd87-4c40-acda-365f1b33654e.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.girl_photo {
+  height: 89vh;
+  position: relative;
+  left: 70px;
+}
+.get_the_smile_text {
+  color: white;
+  font-size: 50px;
+  margin: 40px 0px;
+}
+.smiler_your_best {
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+}
+.smile_picture_and_text_general {
+  margin: 0px 50px;
+}
+.connect_number {
+  color: white;
+  font-size: 25px;
+  margin: 35px;
+  display: inline-block;
+}
+.icon_text_smile {
+  color: white;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.cart_first {
+  width: 100%;
+  height: 300px;
+  background-color: whitesmoke;
+}
+.cart_second {
+  height: 300px;
+  width: 90%;
+  margin: 0px 65px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  position: relative;
+  top: -70px;
+}
+
+.card_one,
+.card_two,
+.card_three {
+  background-color: white;
+}
+.cart_header {
+  margin-top: 26px;
+  margin-left: 80px;
+}
+.cart_lorem_text {
+  margin-top: 10px;
+  margin-left: 40px;
+  color: #878a9d;
+}
+.nice_teeth {
+  color: rgb(51, 37, 119);
+  position: relative;
+  top: 55px;
+  left: 30px;
+  font-size: 30px;
+}
+.read_more {
+  color: black;
+  position: relative;
+  top: 35px;
+  left: 40px;
+  font-size: 20px;
+}
+
+.all_services {
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 100px 0px;
+  display: block;
+}
+.picture_and_text {
+  background-color: whitesmoke;
+
+  width: 100%;
+  height: 60vh;
+}
+.picture_and_text2 {
+  background-color: whitesmoke;
+  height: 60vh;
+  width: 90%;
+  margin: 0px 65px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.smile_picture {
+  background-image: url(https://anpsthemes.com/ident/demo-5/wp-content/uploads/2019/12/before22.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+}
+.nice_tooth_text_header {
+  background-color: whitesmoke;
+
+  margin-left: 40px;
+  margin-top: 30px;
+  color: #143e78;
+  font-size: 35px;
+}
+.nice_during_tooth_text {
+  color: #878a9d;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.lorem_consectetur {
+  color: #878a9d;
+  margin-left: 90px;
+  margin-top: 25px;
+}
+.check_icons {
+  color: yellowgreen;
+  font-size: 30px;
+  position: relative;
+  top: 47px;
+  left: 45px;
+}
+
+.tell_me {
+  border: 1px solid whitesmoke;
+  width: 100%;
+  height: 150px;
+  margin: 25px 0px;
+  background-color: #143e78;
+}
+.tell_me_text {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.doctor_men_picture_and_text {
+  border: 1px solid red;
+
+  width: 100%;
+  height: 100vh;
+}
+.doctor_men_picture_and_text_mini {
+  border: 1px solid red;
+  height: 100vh;
+  width: 90%;
+  margin: 0px 60px;
+  display: grid;
+  grid-template-areas:
+    "box1  box3 box3"
+    "box2  box3 box3"
+    "box2  box3 box3"
+    "box2  box3 box3"
+    "box2  box3 box3"
+    "box2  box3 box3";
+}
+.box1 {
+  border: 1px solid red;
+  grid-area: box1;
+}
+.our_services_general_teamm {
+  width: auto;
+  height: 70px;
+}
+.lorem_quis_tempor {
+  margin-top: 5px;
+  color: #878a9d;
+}
+.class_teeth_implant {
+  font-size: 50px;
+  color: rgb(70, 49, 134);
+}
+
+.text_lorem_aboutt {
+  color: #143e78;
+  font-size: 20px;
+  position: relative;
+  left: 55px;
+  top: 25px;
+}
+
+.our_services_team {
+  font-size: 30px;
+  color: #143e78;
+  margin-top: 50px;
+}
+
+.box2 {
+  border: 1px solid red;
+  grid-area: box2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.box3 {
+  background-image: url(https://img.freepik.com/free-photo/young-beautiful-successful-female-doctor-with-stethoscope-portrait_186202-1506.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid red;
+  grid-area: box3;
+}
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6 {
+  border: 1px solid red;
+}
+.request_appointment {
+  width: 100%;
+  height: 180px;
+  border: 2px solid red;
+  background-image: url(./3fabcfd1-fd87-4c40-acda-365f1b33654e.jfif);
+}
+.request {
+  color: white;
+  text-align: center;
+  margin: 15px;
+  font-size: 20px;
+}
+.our_doctors {
+  text-align: center;
+  margin: 40px 0px;
+  color: #143e78;
+  font-size: 40px;
+}
+.meet_our_doctors {
+  border: 2px solid red;
+  width: 100%;
+  height: 600px;
+}
+.mini_meet_our_doctors {
+  border: 1px solid red;
+  width: 90%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  margin: 0px 60px;
+}
+
+.professional_doctor {
+  border: 1px solid red;
+}
+.professional_doctor1 {
+  border: 1px solid red;
+  background-image: url(./dorctor1.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.professional_doctor2 {
+  border: 1px solid red;
+  background-image: url(./women\ doctor1.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.professional_doctor3 {
+  border: 1px solid red;
+  background-image: url(./women\ doctor2.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.professional_doctor4 {
+  border: 1px solid red;
+  background-image: url(./glasses\ doctor.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.picture_div_under{
+border: 1px solid red;
+width: auto;
+height: 120px;
+background-color: white;
+position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form {
+  border: 1px solid red;
+  width: 100%;
+  height: 400px;
+}
+.make_an_appointment {
+  border: 1px solid red;
+  width: 90%;
+  height: 400px;
+  margin: 0 60px;
+}
+.appointment {
+  color: #143e78;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 35px;
+}
+.tooth_lorem_text {
+  margin: 20px;
+  text-align: center;
+  line-height: 15px;
+}
+.height_picture_text {
+  border: 1px solid red;
+  width: 100%;
+  height: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.certified_doctors {
+  font-size: 25px;
+  color: white;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.certified_doctors_lorem {
+  color: white;
+  margin-left: 70px;
+  margin-top: 30px;
+  line-height: 35px;
+  font-size: 17px;
+}
+.medical_environment {
+  font-size: 25px;
+  color: white;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+.learn_more {
+  color: white;
+  margin-left: 70px;
+  margin-top: 14px;
+  font-size: 17px;
+}
+
+.box_picture2 {
+  background-image: url(./3fabcfd1-fd87-4c40-acda-365f1b33654e.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box_picture3 {
+  background-image: url(./3fabcfd1-fd87-4c40-acda-365f1b33654e.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box_picture1 {
+  background-image: url(./girl_tooth.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+}
+.box_picture4 {
+  background-image: url(./doctor_men2.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+}
+.menu_class {
+  border: 1px solid red;
+  height: 300px;
+  width: 100%;
+}
+.menu_bar_class {
+  width: 85%;
+  height: 200px;
+  margin: 40px 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.menu_bar_header {
+  color: #143e78;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.menu_bar_about {
+  color: #878a9d;
+  margin-top: 10px;
+}
+
+.footer_service_class {
+  border: 1px solid red;
+  margin: 0px 0px;
+  height: 450px;
+  background-color: whitesmoke;
+}
+.all_rights_reversed {
+  border: 1px solid red;
+  width: 100%;
+  height: 100px;
+  background-color: #ffffffa2;
+}
+.copyright {
+  color: #9294a3;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 20px;
+}
