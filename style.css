@@ -38,20 +38,26 @@ body {
 }
 
 .header_box {
-  border: 2px solid rebeccapurplee;
+  border: 2px solid white;
   width: 100%;
   height: 100px;
-  display: block;
+  position: sticky;
+  top: 0px;
+  z-index: 500;
+  background-color: white;
 }
 .header {
   margin: 0px 65px;
-  height: 100px;
+  height: 80px;
   position: relative;
+  position: sticky;
+  top: 0px;
+  background-color: white;
 }
 .tooth_picture {
   height: 80px;
   width: 100px;
-  margin-top: 15px;
+   
   background-image: url(https://i.pinimg.com/originals/0a/aa/2f/0aaa2fe36af41bdacd07a4282f46b175.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +91,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 .girl_photo {
   height: 89vh;
   position: relative;
@@ -228,83 +233,61 @@ body {
   font-size: 30px;
 }
 .doctor_men_picture_and_text {
-  border: 1px solid red;
-
   width: 100%;
   height: 100vh;
-}
-.doctor_men_picture_and_text_mini {
-  border: 1px solid red;
-  height: 100vh;
-  width: 90%;
-  margin: 0px 60px;
+  background-color: white;
   display: grid;
-  grid-template-areas:
-    "box1  box3 box3"
-    "box2  box3 box3"
-    "box2  box3 box3"
-    "box2  box3 box3"
-    "box2  box3 box3"
-    "box2  box3 box3";
+  grid-template-columns: 2fr 1fr;
 }
-.box1 {
-  border: 1px solid red;
-  grid-area: box1;
+.doctor_men_picture_and_text_box2 {
+  background-image: url(https://pngimg.com/d/doctor_PNG15958.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.our_services_general_teamm {
-  width: auto;
-  height: 70px;
-}
-.lorem_quis_tempor {
-  margin-top: 5px;
-  color: #878a9d;
-}
-.class_teeth_implant {
-  font-size: 50px;
-  color: rgb(70, 49, 134);
+.doctor_men_picture_and_text_box1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 160px 1fr;
 }
 
-.text_lorem_aboutt {
-  color: #143e78;
-  font-size: 20px;
-  position: relative;
-  left: 55px;
-  top: 25px;
-}
-
-.our_services_team {
-  font-size: 30px;
-  color: #143e78;
-  margin-top: 50px;
-}
-
-.box2 {
-  border: 1px solid red;
-  grid-area: box2;
+.doctor_text_header2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
 }
-.box3 {
-  background-image: url(https://img.freepik.com/free-photo/young-beautiful-successful-female-doctor-with-stethoscope-portrait_186202-1506.jpg?w=2000);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 1px solid red;
-  grid-area: box3;
+.our_sercive_header {
+  color: #091d37;
+  font-size: 40px;
+  margin-top: 15px;
 }
-.text1,
-.text2,
-.text3,
-.text4,
-.text5,
-.text6 {
-  border: 1px solid red;
+
+.quis_ipsum_tempor_text {
+  color: #9294a3;
+  margin-top: 20px;
 }
+
+.tooth_icon_text1 {
+  font-size: 40px;
+  color: #091d37;
+}
+.general_text_header {
+  color: #091d37;
+  font-size: 35px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.general_text_text_lorem {
+  color: #9294a3;
+  font-size: 20px;
+  margin: 20px 45px;
+}
+
 .request_appointment {
+  border: 1px solid whitesmoke;
   width: 100%;
   height: 180px;
-  border: 2px solid red;
+
   background-image: url(./3fabcfd1-fd87-4c40-acda-365f1b33654e.jfif);
 }
 .request {
@@ -319,13 +302,12 @@ body {
   color: #143e78;
   font-size: 40px;
 }
+
 .meet_our_doctors {
-  border: 2px solid red;
   width: 100%;
   height: 600px;
 }
 .mini_meet_our_doctors {
-  border: 1px solid red;
   width: 90%;
   height: 500px;
   display: grid;
@@ -334,85 +316,42 @@ body {
   margin: 0px 60px;
 }
 
-.professional_doctor {
-  border: 1px solid red;
+.professional_doctor1 :hover {
+  transform: scale(1.3);
 }
-.professional_doctor1 {
-  border: 1px solid red;
-  background-image: url(./dorctor1.jfif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.professional_doctor2 :hover {
+  transform: scale(1.3);
 }
-.professional_doctor2 {
-  border: 1px solid red;
-  background-image: url(./women\ doctor1.jfif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.professional_doctor3 :hover {
+  transform: scale(1.3);
 }
-.professional_doctor3 {
-  border: 1px solid red;
-  background-image: url(./women\ doctor2.jfif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.professional_doctor4 :hover {
+  transform: scale(1.3);
 }
-.professional_doctor4 {
-  border: 1px solid red;
-  background-image: url(./glasses\ doctor.jfif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  
+.doctor_john {
+  height: 361px;
+  width: 327px;
 }
-.picture_div_under{
-border: 1px solid red;
-width: auto;
-height: 120px;
-background-color: white;
-position: relative;
-
+.john_boss {
+  width: 327px;
+  height: 134px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.doctor_name {
+  color: #143e78;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+.doctor_profesionally {
+  color: #878a9d;
+  text-align: center;
+  margin-top: 15px;
+}
 .form {
-  border: 1px solid red;
   width: 100%;
   height: 400px;
 }
 .make_an_appointment {
-  border: 1px solid red;
   width: 90%;
   height: 400px;
   margin: 0 60px;
@@ -420,16 +359,33 @@ position: relative;
 .appointment {
   color: #143e78;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 20px;
   font-size: 35px;
 }
 .tooth_lorem_text {
   margin: 20px;
   text-align: center;
   line-height: 15px;
+  color: #878a9d;
 }
+.input_form {
+  position: relative;
+  left: 370px;
+  width: 300px;
+  height: 37px;
+  color: #878a9d;
+  margin: 5px 10px;
+}
+.sumbit {
+  position: relative;
+  top: 45px;
+  left: 260px;
+  font-size: 30px;
+  color: white;
+  background-color: #332577;
+}
+
 .height_picture_text {
-  border: 1px solid red;
   width: 100%;
   height: 900px;
   display: grid;
@@ -486,7 +442,6 @@ position: relative;
   position: center;
 }
 .menu_class {
-  border: 1px solid red;
   height: 300px;
   width: 100%;
 }
@@ -510,18 +465,17 @@ position: relative;
 }
 
 .footer_service_class {
-  border: 1px solid red;
   margin: 0px 0px;
   height: 450px;
   background-color: whitesmoke;
 }
 .all_rights_reversed {
-  border: 1px solid red;
   width: 100%;
   height: 100px;
-  background-color: #ffffffa2;
+  background-color: whitesmoke;
 }
 .copyright {
+  background-color: whitesmoke;
   color: #9294a3;
   text-align: center;
   margin-top: 35px;
